@@ -68,12 +68,14 @@ img {
 .container-head{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc
 }
   
 
 .nav{
     display: flex;
     align-items: center;
+    gap: 40px
 }
 
 
@@ -137,7 +139,7 @@ img {
 
 .address-menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     color: #434455;
     font-size: 16px;
     font-style: normal;
@@ -149,6 +151,7 @@ img {
 
 .address-menu-link{
 color: var(--main-slate);
+gap: 24px;
 }
 
 
@@ -215,7 +218,7 @@ color: var(--main-slate);
 
 .sec-features{
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 
 
@@ -226,7 +229,7 @@ color: var(--main-slate);
 
 
 .sec-features-obj{
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -237,7 +240,7 @@ color: var(--main-slate);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 
@@ -279,7 +282,7 @@ color: var(--main-slate);
 
 
 .sec-job-obj{
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 3 * 16px) / 3);
 }
 
 
@@ -325,10 +328,15 @@ color: var(--main-slate);
     border: 1px solid rgba(17, 17, 17, 0.1);
     background: #fff;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    width: 360px;
+    width: calc((100% - 72px) / 4)
 }
 
 
+.container-team{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
 .sec-team-subtitle{
     color: var(--navy-blue);
     font-size: 20px;
@@ -337,8 +345,7 @@ color: var(--main-slate);
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 4px;
+    margin-bottom: 8px
     
 }
 
@@ -348,16 +355,20 @@ color: var(--main-slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-top: 4px;
-    margin-bottom: 32px; 
+    
 }
 
 
 /* SECPORTFOLIO */
+.page-portfokio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .button-list{
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 72px
 }
 
  
@@ -382,6 +393,7 @@ color: var(--main-slate);
     border: none;
     border-radius: 4px;
     padding: 12px 24px;
+    border: 1px solid #e7e9fc
 }
 
 
@@ -389,6 +401,7 @@ color: var(--main-slate);
 .button:focus {
     color: var(--white);
     background-color: var(--ocean) ;
+    border: 1px solid transparent
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -397,15 +410,24 @@ color: var(--main-slate);
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    row-gap: 48px;
+
 }
 
 
 .opt-obj{
-    width: calc((100% - 2 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
     border: 1px solid rgba(17, 17, 17, 0.1);
     background: #fff;
+    
+}
+
+
+.container-opt{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
     
 }
 .opt-subtitle{
@@ -415,8 +437,7 @@ color: var(--main-slate);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-top: 32px;
-    margin-bottom: 4px;
+    
 }
 
 
@@ -425,22 +446,21 @@ color: var(--main-slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 4px;
-    margin-bottom: 32px;
+    
 }
 
 
 /* FOOTER */
 .site-footer{
     background-color: var(--navy-blue);
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
 .footer-list{
     /* display: flex; */
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
 }
 .site-footer-logo {
     color: var(--iris);
@@ -452,6 +472,8 @@ color: var(--main-slate);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block
+    margin-bottom: 16;
 }
 
 
@@ -467,4 +489,4 @@ color: var(--main-slate);
     letter-spacing: 0.02em;
     max-width: 264px;
     padding-top: 17.5px;
-}
+    margin-bottom: 16;
