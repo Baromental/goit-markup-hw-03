@@ -68,14 +68,14 @@ img {
 .container-head{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
   
 
 .nav{
     display: flex;
     align-items: center;
-    gap: 40px
+    gap: 40px;
 }
 
 
@@ -102,7 +102,7 @@ img {
 .nav-menu{
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px;
     /*padding-top: 24px;*/
 }
 
@@ -151,7 +151,8 @@ img {
 
 .address-menu-link{
 color: var(--main-slate);
-gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -246,7 +247,7 @@ gap: 24px;
 
 .sec-features-text{
     font-size: 16px;
-    font-weight: 400;*/
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -360,7 +361,7 @@ gap: 24px;
 
 
 /* SECPORTFOLIO */
-.page-portfokio{
+.page-portfolio{
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -401,7 +402,7 @@ gap: 24px;
 .button:focus {
     color: var(--white);
     background-color: var(--ocean) ;
-    border: 1px solid transparent
+    border: 1px solid transparent;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -428,7 +429,7 @@ gap: 24px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    
+
 }
 .opt-subtitle{
     font-size: 20px;
@@ -458,10 +459,6 @@ gap: 24px;
 }
 
 
-.footer-list{
-    /* display: flex; */
-    
-}
 .site-footer-logo {
     color: var(--iris);
     font-family: "Raleway", sans-serif;
@@ -472,7 +469,7 @@ gap: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block
+    display: inline-block;
     margin-bottom: 16;
 }
 
@@ -489,4 +486,3 @@ gap: 24px;
     letter-spacing: 0.02em;
     max-width: 264px;
     padding-top: 17.5px;
-    margin-bottom: 16;
