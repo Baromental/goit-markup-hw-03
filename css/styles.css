@@ -195,7 +195,7 @@ color: var(--main-slate);
     display: block;
     padding: 16px 32px;
     text-align: center;
-    min-width: 169;
+    min-width: 169px;
     border: none;
     border-radius: 4px;
     margin: 0 auto;
@@ -356,7 +356,7 @@ color: var(--main-slate);
 /* SECPORTFOLIO */
 .button-list{
     display: flex;
-    gap: 24;
+    gap: 24px;
     justify-content: center;
 }
 
@@ -397,8 +397,8 @@ color: var(--main-slate);
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 96;
-    padding-bottom: 72;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 
 
