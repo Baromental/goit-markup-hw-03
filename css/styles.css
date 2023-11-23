@@ -133,7 +133,8 @@ img {
 .site-address{
     font-style: normal;
     margin-left: auto;
-   /* padding-top: 24px;*/
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -146,6 +147,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
