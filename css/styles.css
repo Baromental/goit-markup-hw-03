@@ -162,44 +162,43 @@ color: var(--main-slate);
 .sec-eff-sol{
     background-color: var(--navy-blue);
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 }
 
 
 .title-main{
-        color: var(--white);
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        max-width: 496px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 48px;
+    color: var(--white);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
         
 }
 
 
 .order-butt{
-        font-family: 'Roboto', sans-serif;
-        cursor: pointer;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.04em;
-        color: var(--white);
-        background: var(--iris);
-        display: block;
-        padding: 16px 32px;
-        text-align: center;
-        min-width: 169;
-        border: none;
-        border-radius: 4px;
-        margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background: var(--iris);
+    display: block;
+    padding: 16px 32px;
+    text-align: center;
+    min-width: 169;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 
 }
 
@@ -212,112 +211,236 @@ color: var(--main-slate);
 
 
 /* SEC2 */
-.sec-features-subtitle{
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
+
+
+.sec-features{
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
+
+.sec-features-list{
+    display: flex;
+    gap: 24px;
+}
+
+
+.sec-features-obj{
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+
+.sec-features-subtitle{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    padding-bottom: 8px;
+}
+
+
 .sec-features-text{
-        font-size: 16px;
-        /*font-style: normal;
-        font-weight: 400;*/
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 400;*/
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
+
+/* SEC3 */
+.sec-job {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+
 .sec-job-title{
-        text-align: center;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.11;
-        /* 111.111% */
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: var(--navy-blue);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
+
+
+.sec-job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.sec-job-obj{
+    width: calc((100% - 2 * 24px) / 3);
+}
+
+
+/* SEC4 */
 .sec-team{
     background-color: var(--cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
+
 .sec-team-title{
-        color: var(--navy-blue);
-        text-align: center;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.11;
-        /* 111.111% */
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
+    color: var(--navy-blue);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
+
+
 .sec-team-list{
-    background-color: var(--white);
+    display: flex;
+    gap: 24px;
+    /* padding: 264px 380px; */
 }
+
+
 .sec-team-obj{
     background-color: var(--white);
+    /* width: calc((100% - 3 * 24px) / 4);
+    border: 1px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    padding: 260 365; */
+    
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    width: 360px;
 }
+
+
 .sec-team-subtitle{
-        color: var(--navy-blue);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 4px;
+    
 }
+
+
 .sec-team-text{
-        font-size: 16px;
-        /*font-style: normal;
-        font-weight: 400;*/
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 32px; 
 }
+
+
+/* SECPORTFOLIO */
+.button-list{
+    display: flex;
+    gap: 24;
+    justify-content: center;
+}
+
+ 
+.button-obj{
+    width: calc((100% - 4 * 24px) / 5);    
+}
+
+
 .button{
-        font-family: "Roboto", sans-serif;
-        cursor: pointer;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.04em;
-        color: var(--iris);
-        justify-content: center;
-        border: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--cloud);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    border: 1px solid #E7E9FC;
+    background: var(--cloud);
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
+
+
 .button:hover,
 .button:focus {
     color: var(--white);
     background-color: var(--ocean) ;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.opt-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 96;
+    padding-bottom: 72;
+}
+
+
+.opt-obj{
+    width: calc((100% - 2 * 24px) / 3);
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
     
 }
 .opt-subtitle{
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        /* 120% */
-        letter-spacing: 0.02em;
-        color: var(--navy-blue);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-top: 32px;
+    margin-bottom: 4px;
 }
+
+
 .opt-text{
     color: var(--main-slate);
     font-size: 16px;
-    /*font-style: normal;
-    font-weight: 400;*/
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
+    margin-top: 4px;
+    margin-bottom: 32px;
 }
+
+
+/* FOOTER */
 .site-footer{
     background-color: var(--navy-blue);
+
+}
+
+
+.footer-list{
+    /* display: flex; */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .site-footer-logo {
     color: var(--iris);
@@ -326,20 +449,22 @@ color: var(--main-slate);
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
 .footer-s-logo {
     color: var(--cloud);
 }
+
+
 .text-footer {
     color: var(--cloud);
     font-size: 16px;
-    /*font-style: normal;
-    font-weight: 400;*/
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
+    max-width: 264px;
+    padding-top: 17.5px;
 }
