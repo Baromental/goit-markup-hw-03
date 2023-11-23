@@ -76,6 +76,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -89,6 +90,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    border-bottom: 1px solid #e7e9fc;
    /* padding-top: 25.5px;*/
     
 }
@@ -103,12 +105,16 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
     /*padding-top: 24px;*/
 }
 
 
 .nav-menu-link{
     color: var(--navy-blue);
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -121,6 +127,7 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style-type: none; 
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -488,4 +495,4 @@ color: var(--main-slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding-top: 17.5px;
+    
