@@ -22,18 +22,16 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/* ul, ol{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-} */
-
-
 img {
     display: block;
 }
+
+
 .list {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 
@@ -53,7 +51,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    }
+}
 
 
 .container{
@@ -66,10 +64,14 @@ img {
 
 
 /* HEADER */
+.site-header{
+
+    border-bottom: 1px solid var(--corn);
+}
 .container-head{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--corn);
+    
 }
   
 
@@ -103,25 +105,21 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 
 .nav-menu-link{
     color: var(--navy-blue);
-}
-
-
-.nav-menu{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
     color: var(--navy-blue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
-    list-style-type: none;
 }
 
 
@@ -134,22 +132,12 @@ img {
 .site-address{
     font-style: normal;
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 
 .address-menu{
     display: flex;
     gap: 40px;
-    color: #434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 
@@ -157,6 +145,12 @@ img {
 color: var(--main-slate);
     padding-top: 24px;
     padding-bottom: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
 }
 
 
@@ -376,11 +370,6 @@ color: var(--main-slate);
     margin-bottom: 72px
 }
 
- 
-.button-obj{
-    width: calc((100% - 4 * 24px) / 5);    
-}
-
 
 .button{
     font-family: "Roboto", sans-serif;
@@ -422,7 +411,6 @@ color: var(--main-slate);
 
 .opt-obj{
     width: calc((100% - 48px) / 3);
-    border: 1px solid rgba(17, 17, 17, 0.1);
     background: #fff;
     
 }
@@ -474,7 +462,7 @@ color: var(--main-slate);
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 16;
+    margin-bottom: 16px;
 }
 
 
